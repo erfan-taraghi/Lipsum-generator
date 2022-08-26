@@ -14,8 +14,8 @@ function App() {
     if(count<0){
       amount= 0
     }
-    if(count>4){
-      amount = 4
+    if(count>5){
+      amount = 5
     }
     setText(data.slice(0,amount))
   }
